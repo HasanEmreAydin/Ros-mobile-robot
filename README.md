@@ -1,1 +1,5 @@
 # Ros-mobile-robot
+
+In the first project, the TurtleBot3 setup was completed, and a connection was established with the ROS Master. ROS nodes and topics were examined. The robot was controlled using teleoperation via a keyboard and a mobile application. The SLAM algorithm was used to create and save a map of the environment. The saved map was then used for autonomous navigation, allowing the robot to reach predefined targets. The robot's responses to obstacles were observed, and the system's functionality was validated.
+
+In the second project, the necessary network connections and system configurations for TurtleBot3 were checked. A ROS package was developed to enable the robot to autonomously explore its surroundings. Using a random exploration algorithm, the robot moved through the environment while mapping it. Sensors were utilized to detect obstacles and avoid collisions. Once a predefined area was sufficiently explored, the robot's movement was stopped. Various environments were tested to evaluate the system's efficiency and performance.
